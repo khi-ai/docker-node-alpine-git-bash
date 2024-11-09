@@ -1,5 +1,5 @@
 FROM node:hydrogen-alpine
-LABEL maintainer "Tim Brust <github@timbrust.de>"
+LABEL maintainer "Khỉ Đột <git@khi.me>"
 
 ARG REFRESHED_AT
 ENV REFRESHED_AT $REFRESHED_AT
@@ -7,4 +7,5 @@ ENV REFRESHED_AT $REFRESHED_AT
 RUN apk -U upgrade \
   && apk add --no-cache \
     git \
-    openssh
+    openssh \
+    bash

@@ -27,4 +27,4 @@ These Dockerfiles leverage the new `buildx` functionality and offer the followin
 
 ---
 
-Built by (c) Tim Brust and contributors. Released under the MIT license.
+Built by (c) Khỉ Đột and contributors. Released under the MIT license.
